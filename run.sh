@@ -84,8 +84,8 @@ clear
     python2 main.py
     echo -e $merahmuda "[-] Perintah Mencoba Di jalankan..!" $hijau " [aktif]"
     elif [ $pil == "2" ];then
-    git clone https://github.com/Mohammadjan1122/iraq
-    cd iraq
+    git clone https://github.com/REHANSA/Crack_Fb-V2
+    cd Crack_Fb-V2
     git pull
 echo
 clear
@@ -107,7 +107,7 @@ clear
 echo -e $kuning "[-] Perintah Mencoba Di jalankan..." $hijau " [aktif]"
 sleep 2
 clear
-    python3 run.py
+    python son2.py
     echo -e $merahmuda "[√] Perintah Berhasi Di jalankan..!" $hijau " [aktif]"
     elif [ $pil == "3" ];then
     git clone https://github.com/rapid7/metasploit-framework
@@ -298,6 +298,8 @@ clear
     echo -e $merahmuda "[√] Perintah Berhasi Di jalankan..!" $hijau " [aktif]"
     echo
 elif [ $pil == "00" ];then
+    git clone https://github.com/REHANSA/Tools_Termux
+    cd Tools_Termux
     git pull
     pkg update && upgrade
 clear
